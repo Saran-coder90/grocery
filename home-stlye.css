@@ -1,0 +1,82 @@
+.make-bold{
+    font-weight: bold;
+}
+.home-outer-container{
+    background-color: #3bb77e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dimension-top-image{
+    width: 100%;
+    overflow: hidden;
+}
+
+.top-section-head{
+    font-size: 60px;
+}
+.top-section-para{
+    font-weight: bold;
+    font-size:larger;
+}
+.top-email-section{
+    border-radius: 0.2em;
+    border-width: 0px;
+    padding: 10px;
+    width :60%;
+    outline: none;
+}
+.top-email-section:hover{
+    transform: scale(1.01);
+}
+.top-section-button{
+    background-color:  #3bb77e;
+    border-width: 0px;
+    width:25%;
+    border-radius: 0.2em;
+}
+.top-section-button:hover{
+    background-color: #ffffff;
+    color:black !important;
+    height:100%;
+}
+.top-section-button:active{
+    transform: rotateX(20deg);
+    transform: skewY(5deg);
+}
+.add-animations-left{
+    animation-name: leftanimation;
+    animation-duration: 1s;
+}
+.add-animation-zoom-out{
+    animation-name: zoomanimation;
+    animation-duration: 1s;
+}
+.add-animations-right{
+    animation-name: rightanimation;
+    animation-duration: 1s;
+}
+.categories{
+    font-size: small;
+    font-weight: 500;
+    margin: 0px;
+}
+.products{
+    border-style: solid;
+    border-color: lightslategray;
+    border-width: 1px;
+    border-radius: 10px;
+}
+h4{
+    margin : 0px;
+}
+@keyframes zoomanimation{
+    100% {scale: 1;}
+    0% {scale: 0.5;}
+}
+@keyframes leftanimation{
+    100%{transform : translateX(0%);}
+    0%{transform: translateX(-100%);}
+}
+@keyframes rightanimation{
+    100%{transform : translateX(0%);}
+    0%{transform: translateX(200%);}
+}
