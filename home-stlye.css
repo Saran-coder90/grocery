@@ -65,8 +65,43 @@
     border-width: 1px;
     border-radius: 10px;
 }
+.product-name{
+    font-size: 16px;
+    font-weight: 700;
+}
 h4{
     margin : 0px;
+}
+.manufacturer{
+    font-size: small;
+    color: lightslategray;
+    margin:0px;
+}
+.manufacturer span{
+    color: #52B800;
+    font-weight: 600;
+}
+.ratings{
+    margin: 0px;
+}
+.rupees{
+    color:#228B22;
+    font-weight: 700;
+}
+.rupees span{
+    color : lightslategray;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.add-to-cart{
+    width:100px;
+}
+.section{
+    background-color: #fad6a5;
+    border-radius: 16px;
+}
+.section-2{
+    background-color: #D0F0C0;
 }
 @keyframes zoomanimation{
     100% {scale: 1;}
