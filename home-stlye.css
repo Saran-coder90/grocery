@@ -102,6 +102,16 @@ h4{
 }
 .section-2{
     background-color: #D0F0C0;
+    border-radius: 16px;
+}
+.adjust-image{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+.footer-section{
+    background-color: #f5f5f5;
+    border-radius:16px;
 }
 @keyframes zoomanimation{
     100% {scale: 1;}
